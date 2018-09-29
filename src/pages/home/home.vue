@@ -1,14 +1,18 @@
 <template>
-    <div>this is home</div>
+  <div>
+    <homeHeader></homeHeader>
+  </div>
 </template>
 
 <script>
+import homeHeader from './components/header'
 export default {
-  data () {
+  data() {
     return {}
   },
-  mounted () {},
-  methods: {}
+  mounted() {},
+  methods: {},
+  components: { homeHeader }
 }
 </script>
 <style >
