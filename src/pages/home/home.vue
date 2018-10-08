@@ -2,20 +2,21 @@
   <div>
     <homeHeader></homeHeader>
     <homeSwiper></homeSwiper>
-    <div>3G</div>
+    <icons></icons>
   </div>
 </template>
 
 <script>
 import homeHeader from './components/header'
 import homeSwiper from './components/swiper'
+import icons from './components/icons'
 export default {
   data() {
     return {}
   },
   mounted() {},
   methods: {},
-  components: { homeHeader, homeSwiper }
+  components: { homeHeader, homeSwiper, icons }
 }
 </script>
 <style >
